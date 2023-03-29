@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
 export default class employee extends Component {
-    constructor(props) {
+    constructor({name,phone,salary}) {
         super()
         this.state = {
-            name: props.name,
-            phone: props.phone,
-            salary: props.salary,
+            name: name,
+            phone: phone,
+            salary: salary,
             click: 0,
         }
     }
